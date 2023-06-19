@@ -19,7 +19,7 @@ export function parseIneligibility(
   } else if (reason === ClaimEligibility.NotEnoughTokens) {
     return "You don't have enough currency to mint.";
   } else if (reason === ClaimEligibility.AddressNotAllowed) {
-    if (quantity > 1) {
+    if (quantity > 100) {
       return `You are not eligible to mint ${quantity} tokens.`;
     }
 

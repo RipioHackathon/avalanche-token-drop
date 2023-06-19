@@ -16,7 +16,7 @@ import styles from "../styles/Home.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 
 const Home = () => {
-  const tokenAddress = "0x03728725240b021887355c943d040BF933F3d5F0";
+  const tokenAddress = "0x86BA6D1F23268262c5C33e02B3eA1C0299f7288a";
   const { contract } = useContract(tokenAddress, "token-drop");
   const address = useAddress();
   const [quantity, setQuantity] = useState(1);
@@ -234,10 +234,17 @@ const Home = () => {
             />
           )}
 
-          <h2 className={styles.title}>Claim Tokens</h2>
+          <h1 className={styles.title}>Tuki: La tarjeta de débito de custodia propia.</h1>
+
           <p className={styles.explain}>
-            Claim ERC20 tokens from{" "}
-            <span className={styles.pink}>{contractMetadata?.name}</span>
+            Estamos interactuando en la blockchain Avalanche Fuji. Los tokens no tienen valor. Su uso es para fines educativos. 
+          </p>
+
+          <h2 className={styles.title}>Mintea tokens de prueba</h2>
+          <p className={styles.explain}>
+            Reclama {" "}
+            <span className={styles.pink}>{contractMetadata?.name}</span>{" "}
+            y agrega el token a tu wallet: 0x86BA6D1F23268262c5C33e02B3eA1C0299f7288a
           </p>
         </>
       )}
@@ -271,7 +278,10 @@ const Home = () => {
         >
           {buttonText}
         </Web3Button>
+
       </div>
+      <h1 className={styles.title}><a href="https://tukicard.xyz">Visita nuestro sitio para ser de de lxs primerxs en tener su tarjeta Tuki.</a></h1>
+
     </div>
   );
 };
