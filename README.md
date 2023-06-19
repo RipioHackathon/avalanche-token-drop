@@ -12,7 +12,7 @@
 
 | What? | Link |
 |---|---|
-| Contract address | https://explorer.testnet.avalanche.co/address/0xb0880d6f2cc4ede914bb73474f945cb428e8215a |
+| Contract address | https://testnet.snowtrace.io/address/0x86BA6D1F23268262c5C33e02B3eA1C0299f7288a |
 | Demo en Avalanche Fuji | https://avalanchestaking.vercel.app/ |
 | Landing | https://tukicard.xyz |
 
