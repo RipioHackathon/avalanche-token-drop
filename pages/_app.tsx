@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider activeChain={AvalancheFuji}>
       <Head>
-        <title>thirdweb Token Drop Example</title>
+        <title>Tuki token drop</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="thirdweb Example Repository to Showcase the token drop contract, including claim and transfer features."
+          content="Tuki token drop"
         />
         <meta
           name="keywords"
