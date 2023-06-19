@@ -26,7 +26,7 @@ Creamos una dapp para mintear ERC-20 en la testnet Avalanche Fuji para que pueda
 
 <p align="center">
     <br>
-    <img src="img/demo.png" width="500"/>
+    <img src="img/demo1.png" width="500"/>
     <br>
 <p>
 
